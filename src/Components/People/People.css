@@ -1,0 +1,16 @@
+
+
+.people-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.guest-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.add-guest{
+    text-align: center;
+    border-left: 1px solid lightblue;
+    padding-top: 26px;
+    
+}

@@ -1,0 +1,41 @@
+
+.guest{
+    box-shadow: 2px 2px 8px 3px #c2c0c0;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 5px;
+}
+.guest-name{
+    color: rgb(20, 20, 95);
+}
+.cost{
+    color: rgb(20, 20, 95);
+    font-weight: bold;
+}
+.guest img{
+    margin-top: 10px;
+
+    width: 60%;
+    height: 40%;
+    border-radius: 15px;
+    
+}
+.guest button{
+    width: 40%;
+    background-color:rgb(11, 11, 56) ;
+    border: none;
+    color: white;
+    border-radius: 4pc;
+    padding: 5px;
+}
+.guest button:hover{
+    cursor: pointer;
+    background-color:rgb(35, 35, 109) ;
+}
+.add-btn{
+    margin-left: 4px;
+}
