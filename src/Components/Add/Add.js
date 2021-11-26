@@ -23,11 +23,11 @@ const Add = (props) => {
             <h3><span className='text-color'>Total guest:</span>{props.add.length}</h3>
 
             <h4><span className='text-color'>Total Cost</span>: ${total}</h4>
-            <ul>
-                {/* <li className='name-list'>{ }</li> */}
+            <ul className='name-list'>
+
                 {
                     add.map(guest => <li key={guest.key}>
-                        {guest.name}</li>)
+                        {guest.name} </li>)
                 }
             </ul>
 
